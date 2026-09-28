@@ -1,9 +1,9 @@
 camera_id,slice_type,frames,risk,rationale
-front,normal,,TODO,TODO
-front,hard,,TODO,TODO
-rear,normal,,TODO,TODO
-rear,hard,,TODO,TODO
-left,normal,,TODO,TODO
-left,hard,,TODO,TODO
-right,normal,,TODO,TODO
-right,hard,,TODO,TODO
+front,normal,25,medium,"Bao phủ cảnh trước thông thường và các phương tiện đủ sáng; lấy mẫu rải theo thời gian để tránh nhiều frame liên tiếp cùng cảnh."
+front,hard,25,high,"Ưu tiên vật nhỏ ở xa và gần rìa fisheye; kiểm tra che khuất cắt biên ánh sáng ngược và vùng giao với camera bên."
+rear,normal,25,medium,"Bao phủ cảnh sau ổn định với xe người và mặt đường; giữ đa dạng mật độ giao thông và khoảng cách."
+rear,hard,25,high,"Tập trung xe tiến gần từ phía sau ánh sáng thay đổi vật bị che và seam góc sau; cần giữ timestamp để review tracking."
+left,normal,25,medium,"Bao phủ cảnh bên trái với curb làn đường và vật thể ngang thân xe; lấy mẫu theo các đoạn thời gian khác nhau."
+left,hard,25,high,"Ưu tiên méo rìa xe máy người đi bộ và vùng seam trước-trái hoặc sau-trái; kiểm box cắt và đối tượng nhỏ."
+right,normal,25,medium,"Bao phủ cảnh bên phải thông thường với cửa xe curb và phương tiện cùng chiều; tránh chọn các frame liền nhau."
+right,hard,25,high,"Ưu tiên seam góc phải che khuất ánh sáng yếu và vật sát xe; cần calibration để phân xử box trùng giữa hai camera."

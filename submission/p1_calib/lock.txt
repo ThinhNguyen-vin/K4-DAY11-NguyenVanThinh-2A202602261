@@ -1,0 +1,9 @@
+round: calib
+slice: C0
+sha256: 9c37f19098be608ec86c857b3a2d31bbae8183abbfd2f0b61c4179471994c96a
+code: 9C37-F190
+locked_at: 2026-09-28T17:32:46+07:00
+shapes: box=6, polygon=2
+prefill_kept: 0
+prefill_edited: 0
+new: 6

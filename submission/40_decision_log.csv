@@ -1,1 +1,5 @@
 id,date,question,decision,rationale,status
+1,2026-09-28,Which parking marks define individual spaces?,Keep selected parking_line and free_space annotations,They follow visible space boundaries and exclude driving-lane marks.,closed
+2,2026-09-28,How should the C0 class disagreement be handled?,Escalate the C0 L5+R3 case for rule review,The class conflict is recorded with frame evidence and should not be silently changed after calibration.,escalated
+3,2026-09-28,Should B4-edge labels be changed to match model-only detections?,Keep human labels when image and reference agree,Local quality is TP=20 FP=0 FN=0 and model disagreement is classified as E4_model_domain.,closed
+4,2026-09-28,What action is needed for mid-zone model misses and extras?,Escalate to ai_team and retain current annotation,The slice has 3 model misses and 8 model extras in mid; more fisheye frames are needed before model changes.,escalated

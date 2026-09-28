@@ -1,0 +1,6 @@
+frame,type,left,reference,left_label,reference_label,iou
+adasind_258420.jpg,mismatching_attributes,5,5,Car,Car,0.618
+adasind_310008.jpg,mismatching_attributes,2,3,Pedestrian,Pedestrian,0.897
+adasind_310008.jpg,mismatching_attributes,3,4,Pedestrian,Pedestrian,0.832
+adasind_310008.jpg,mismatching_attributes,1,2,Pedestrian,Pedestrian,0.811
+adasind_310008.jpg,mismatching_attributes,4,5,Pedestrian,Pedestrian,0.722
